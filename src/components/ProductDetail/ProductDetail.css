@@ -1,0 +1,46 @@
+.detail-container {
+  padding: 50px;
+}
+
+.detail-container .cart-container {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  font-size: 23px;
+}
+
+.detail-container .cart-container svg {
+  margin-right: 10px;
+}
+
+.detail-container .product-information h1 {
+  margin-bottom: 20px;
+}
+
+.detail-container .product-information p {
+  margin-bottom: 15px;
+}
+
+.detail-container .product-information .price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.detail-container .product-information button {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  transition: .1s;
+}
+
+.detail-container .product-information button:hover {
+  background-color: rgba(0, 0, 0, .8);
+}

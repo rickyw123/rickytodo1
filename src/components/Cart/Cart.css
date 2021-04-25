@@ -1,0 +1,111 @@
+.cart-list-container {
+  padding: 50px;
+}
+
+.cart-list-container main {
+  display: flex;
+}
+
+.cart-list-container .left-content {
+  flex: 2;
+  margin-right: 50px;
+}
+
+.cart-list-container .right-content {
+  flex: 1;
+}
+
+main .left-content h1 {
+  margin-bottom: 20px;
+}
+
+main .left-content .cart-items-container .cart-item {
+  border: 1px solid #000;
+  padding: 15px;
+}
+
+main .left-content .cart-items-container .cart-item .cart-title {
+  display: flex;
+  align-items: center;
+}
+
+main .left-content .cart-items-container .cart-item .cart-title svg {
+  color: orangered;
+  margin-left: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+main .left-content .cart-items-container .cart-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+main .left-content .cart-items-container .cart-item p {
+  margin-top: 10px;
+}
+
+main .left-content .cart-items-container .cart-item .price,
+main .left-content .cart-items-container .cart-item .totalPrice {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main .left-content .cart-items-container .cart-item .item-quantity {
+  margin-top: 10px;
+}
+
+main .left-content .cart-items-container .cart-item .item-quantity input {
+  width: 50px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+main .left-content .cart-items-container .cart-item .item-quantity button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+main .right-content h1 {
+  margin-bottom: 20px;
+}
+
+main .right-content .cart-list {
+  border: 1px solid #000;
+  padding: 15px;
+}
+
+main .right-content .single-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .right-content .single-list:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px ;
+}
+
+main .right-content .cart-list .single-list .single-list-title {
+  display: flex;
+  align-items: center;
+}
+
+main .right-content .cart-list .single-list .single-list-title p {
+  margin-left: 15px;
+}
+
+main .right-content .subtotal {
+  margin-top: 20px;
+  text-align: right;
+}
